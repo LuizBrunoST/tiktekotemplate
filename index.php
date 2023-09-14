@@ -151,6 +151,7 @@ $(document).ready(function () {
         userName.text(author);
         descri.text(description);
         music.text(title);
+        $('title').text('('+ author +') '+ title + ' | Tiktok')
     }
 
     playVideo(currentVideoIndex);
