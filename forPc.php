@@ -21,13 +21,9 @@ $(document).ready(function () {
     const videoSource = $('#video-source');
 
     const videos = [
-        "ssstik.io_1687629998943.mp4",
-        "ssstik.io_1687630183774.mp4",
-        "ssstik.io_1687630214448.mp4",
-		"AnnaHeloisa.mp4",
-        "01101011001.mp4",
-        "d2cf992681124c6b28bdfd330bd85935.mp4",
-        "video2.mp4",
+        "1.mp4",
+        "2.mp4",
+        "3.mp4",
         // Adicione mais vídeos conforme necessário
     ];
 

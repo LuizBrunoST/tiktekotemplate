@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/w3.css">
     <link rel="stylesheet" href="css/padrao.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <title>Document</title>
+    <title>Tiktok Templete php</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body class="w3-lght-gray">
@@ -19,7 +19,7 @@
     </video>
     <div class="w3-display-right">
         <a class="w3-right" href="#">
-            <img class="w3-circle w3-card" src="jpg.jpg" style="border:3px solid #2196F3;width:59px;height:59px;object-fit:cover;" alt="My Perfil">
+            <img class="w3-circle w3-card" src="user.png" style="border:3px solid #2196F3;width:59px;height:59px;object-fit:cover;" alt="My Perfil">
         </a><br>
         <a class="w3-button w3-bar-item w3-block w3-right w3-text-blue" href="#"><i class="fa-solid fa-share-from-square w3-xlarge"></i></a><br>
         <a class="w3-button w3-bar-item w3-block w3-right w3-text-blue" href="#"><i class="fa-regular fa-heart w3-xlarge"></i></a><br>
@@ -117,22 +117,22 @@ $(document).ready(function () {
 
     const videos = [
         {
-            src: "ssstik.io_1687629998943.mp4",
-            author: "@naty",
+            src: "1.mp4",
+            author: "@LUMAMAX",
             description: '123456789',
+            music: "Vídeo 0"
+        },
+        {
+            src: "2.mp4",
+            author: "@LUMAMAX",
+            description: 'nfsdjnfsdnfsjdf sdfsdfwef',
             music: "Vídeo 1"
         },
         {
-            src: "ssstik.io_1687630183774.mp4",
-            author: "@naty",
+            src: "3.mp4",
+            author: "@LUMAMAX",
             description: 'nfsdjnfsdnfsjdf sdfsdfwef',
             music: "Vídeo 2"
-        },
-        {
-            src: "ssstik.io_1687630214448.mp4",
-            author: "@naty",
-            description: 'sdfsfw fwewfwef',
-            music: "Vídeo 3"
         },
         // Adicione mais vídeos conforme necessário
     ];
